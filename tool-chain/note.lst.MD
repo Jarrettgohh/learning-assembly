@@ -9,7 +9,8 @@ example from the list file generated from basic.asm file using yasm assembler
     14 00000007 804A5D0500000000       qVar1 dq 90000000
 ```
 
-- First line:
+> > First line:
+> > 11 00000000 5A bVar1 db 90
 
 1. line number
 2. relative address in memory in hex (0x)
@@ -24,5 +25,3 @@ example from the list file generated from basic.asm file using yasm assembler
 4. variable name
 5. data type
 6. value assigned
-
-11 00000000 5A bVar1 db 90
