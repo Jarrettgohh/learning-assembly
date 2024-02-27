@@ -1,6 +1,6 @@
 ## .lst file notes
 
-example from the list file generated from basic.asm file using yasm assembler
+- Example from the list file generated from basic.asm file using yasm assembler
 
 ```
     11 00000000 5A                     bVar1 db 90
