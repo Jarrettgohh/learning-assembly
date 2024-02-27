@@ -9,10 +9,16 @@ example from the list file generated from basic.asm file using yasm assembler
     14 00000007 804A5D0500000000       qVar1 dq 90000000
 ```
 
-> > First line:
-> > 11 00000000 5A bVar1 db 90
+First line:
+
+```
+11 00000000 5A bVar1 db 90
+```
 
 1. line number
+
+   > line 11 to 14 for this example
+
 2. relative address in memory in hex (0x)
 
    > eg. on line 11, the relative address is 0x00000000
