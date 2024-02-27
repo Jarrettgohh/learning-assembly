@@ -1,0 +1,8 @@
+
+$> yasm -g dwarf2 -f elf64 <name_of_assembly_file>.asm -l <name_of_list_file>.lst
+
+Flags
+-g: for debugging
+-f:  ELF64 format
+-l: list file name
+

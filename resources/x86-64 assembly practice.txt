@@ -1,0 +1,36 @@
+2.7.1 (Chapter 2)
+
+2. BUS
+3. Hard drive (secondary storage)
+4. RAM (primary storage)
+5. Increases the access speed for the BUS
+6. 32 bits (4 bytes)
+7. 8 bits (1 byte)
+8. 0x40 
+9. 0x00
+12. RIP (Instruction Pointer Register)
+13. RSP (Stack Pointer Register)
+
+
+3.5.1 (Chapter 3)
+
+1. 
+-> -128 to 127
+-> 0 to 255
+-> -2^16 to 2^16 -1
+-> 0 to 2^16 -1
+-> -2^32 to 2^32 -1
+-> 0 to 2^32 - 1
+
+2. 
+-> 5
+-> 9
+-> 13
+-> 21
+
+
+
+
+
+
+
