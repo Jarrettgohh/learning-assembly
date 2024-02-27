@@ -15,3 +15,8 @@ $> yasm -g dwarf2 -f elf64 <name_of_assembly_file>.asm -l <name_of_list_file>.ls
 ```
 $> ld -g -o <name_of_file_to_output> <name_of_object_file>.o
 ```
+
+- Flags
+
+1. -g: debugging
+2. -o: output file (in .out file format)
