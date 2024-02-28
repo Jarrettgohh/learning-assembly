@@ -109,12 +109,18 @@
 (gdb) where
 ```
 
-10. Examine contents of registers
+11. Examine contents of register
 
 - examine content of the stack
 
 ```
 (gdb) x/<n><f><u> $rsp
+```
+
+11. Examine memory location
+
+```
+(gdb) x/<n><f><u> &<variable>
 ```
 
 > Legend:
@@ -124,16 +130,18 @@
 2. `n` number of locations to display, 1 is
    default.
 
-3. `f` format: d – decimal (signed)
+3. `f` format:
 
+- d – decimal (signed)
 - x – hex
 - u – decimal (unsigned)
 - c – character
 - s – string
 - f – floating-point
 
-3. `u` unit size: b – byte (8-bits)
+3. `u` unit size:
 
+- b – byte (8-bits)
 - h – halfword (16-bits)
 - w – word (32-bits)
 - g – giant (64-bits)
