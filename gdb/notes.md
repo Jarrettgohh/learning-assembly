@@ -119,12 +119,12 @@
 
 > Legend:
 
-1. Examine memory location <variable>
+1. Examine memory location `<variable>`
 
-2. <n> number of locations to display, 1 is
+2. `<n>` number of locations to display, 1 is
    default.
 
-3. <f> format: d – decimal (signed)
+3. `<f>` format: d – decimal (signed)
 
 - x – hex
 - u – decimal (unsigned)
@@ -132,7 +132,7 @@
 - s – string
 - f – floating-point
 
-3. <u> unit size: b – byte (8-bits)
+3. `<u>` unit size: b – byte (8-bits)
 
 - h – halfword (16-bits)
 - w – word (32-bits)
