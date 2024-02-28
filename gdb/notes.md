@@ -18,6 +18,15 @@
 (gdb) b _start (works too)
 ```
 
+- to continue to next breakpoint
+
+```
+(gdb) continue
+(gdb) c
+(gdb) continue <n>
+(gdb) c <n>
+```
+
 3. Run the program, and stop at breakpoint
 
 ```
@@ -93,6 +102,35 @@
 (gdb)  break *memory_address_of_var
 (gdb)   *memory_address_of_var
 ```
+
+9. Current activation (call depth)
+
+```
+(gdb) where
+```
+
+10. Examine contents of registers
+
+- examine content of the stack
+
+```
+(gdb) x/<n><f><u> $rsp
+```
+
+Legend:
+Examine memory location <variable>
+<n> number of locations to display, 1 is
+default.
+<f> format: d – decimal (signed)
+x – hex
+u – decimal (unsigned)
+c – character
+s – string
+f – floating-point
+<u> unit size: b – byte (8-bits)
+h – halfword (16-bits)
+w – word (32-bits)
+g – giant (64-bits)
 
 > Quit gdb
 
