@@ -1,5 +1,7 @@
 ## GDB basic commands
 
+> https://ncona.com/2019/12/debugging-assembly-with-gdb/
+
 1. Start gdb
 
 ```
@@ -21,3 +23,12 @@
 ```
 (gdb) run
 ```
+
+4. Step through the program
+
+```
+(gdb) step
+(gdb) s (works too)
+```
+
+5. Getting ifno
