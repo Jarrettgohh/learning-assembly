@@ -117,20 +117,26 @@
 (gdb) x/<n><f><u> $rsp
 ```
 
-Legend:
-Examine memory location <variable>
-<n> number of locations to display, 1 is
-default.
-<f> format: d – decimal (signed)
-x – hex
-u – decimal (unsigned)
-c – character
-s – string
-f – floating-point
-<u> unit size: b – byte (8-bits)
-h – halfword (16-bits)
-w – word (32-bits)
-g – giant (64-bits)
+> Legend:
+
+1. Examine memory location <variable>
+
+2. <n> number of locations to display, 1 is
+   default.
+
+3. <f> format: d – decimal (signed)
+
+- x – hex
+- u – decimal (unsigned)
+- c – character
+- s – string
+- f – floating-point
+
+3. <u> unit size: b – byte (8-bits)
+
+- h – halfword (16-bits)
+- w – word (32-bits)
+- g – giant (64-bits)
 
 > Quit gdb
 
