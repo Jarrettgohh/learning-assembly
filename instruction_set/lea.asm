@@ -1,0 +1,1 @@
+; the lea operator is used to get the address of a variable and stands for "Load Effective Address"
