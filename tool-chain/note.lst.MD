@@ -27,6 +27,8 @@ First line:
 3. value in hex placed in the memory
 
    > eg. on line 11, would be 0x5A
+   > this value is not the value assigned to the variable, but rather the memory value for this assignment expression - even though 0x5A coincidentally equals to 90
+   > essentially, its the machine language version of the instruction that the CPU reads and understands
 
 4. variable name
 5. data type
